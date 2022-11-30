@@ -1,0 +1,37 @@
+site_name: GUISql
+
+plugins:
+  - search:
+      lang: es
+
+theme:
+  font:
+    text: Source Sans Pro
+    code: Source Code Pro
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: red
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: red
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - header.autohide
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+
+copyright: Libre de uso - André Pérez 2022
